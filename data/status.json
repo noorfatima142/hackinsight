@@ -1,0 +1,18 @@
+{
+ "run_id": "a204c2af",
+ "last_run_utc": "2026-10-20T05:39:36Z",
+ "last_run_status": "success",
+ "error": "",
+ "seconds": 28.7,
+ "last_success_utc": "2026-10-20T05:39:36Z",
+ "sources": {
+  "openaq": {
+   "last_fetch_utc": "2026-10-20T05:39:28Z",
+   "latest_data_utc": "2026-10-20 04:00:00+00:00"
+  },
+  "openmeteo": {
+   "last_fetch_utc": "2026-10-20T05:39:28Z",
+   "latest_data_utc": "2026-10-20 23:00:00+00:00"
+  }
+ }
+}

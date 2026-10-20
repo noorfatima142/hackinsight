@@ -1,0 +1,33 @@
+run_id,ts_utc,table,station_id,rule,action,rows_affected,rows_total,detail
+534fba34,2026-10-20T05:35:56Z,pm25,3292849,gap_le_3h_linear_interpolation,fill,118,16541,is_filled=True
+534fba34,2026-10-20T05:35:56Z,pm25,3292849,gap_gt_3h_left_missing,flag,1013,16541,not guessed
+534fba34,2026-10-20T05:35:56Z,pm25,4515157,gap_le_3h_linear_interpolation,fill,97,12189,is_filled=True
+534fba34,2026-10-20T05:35:56Z,pm25,4515157,gap_gt_3h_left_missing,flag,1534,12189,not guessed
+534fba34,2026-10-20T05:35:56Z,pm25,4515157,station_stale_over_6h,flag,1,1,latest hour 2026-10-14 12:00:00+00:00 is 138h old
+534fba34,2026-10-20T05:35:56Z,pm25,4515644,gap_le_3h_linear_interpolation,fill,50,12325,is_filled=True
+534fba34,2026-10-20T05:35:56Z,pm25,4515644,gap_gt_3h_left_missing,flag,6799,12325,not guessed
+534fba34,2026-10-20T05:35:56Z,pm25,4527035,gap_le_3h_linear_interpolation,fill,57,12287,is_filled=True
+534fba34,2026-10-20T05:35:56Z,pm25,4527035,gap_gt_3h_left_missing,flag,3894,12287,not guessed
+534fba34,2026-10-20T05:35:57Z,pm25,4527173,gap_le_3h_linear_interpolation,fill,84,12285,is_filled=True
+534fba34,2026-10-20T05:35:57Z,pm25,4527173,gap_gt_3h_left_missing,flag,631,12285,not guessed
+534fba34,2026-10-20T05:35:57Z,pm25,4566426,gap_le_3h_linear_interpolation,fill,54,12190,is_filled=True
+534fba34,2026-10-20T05:35:57Z,pm25,4566426,gap_gt_3h_left_missing,flag,3397,12190,not guessed
+534fba34,2026-10-20T05:35:57Z,pm25,,pandera_schema,pass,77817,77817,
+534fba34,2026-10-20T05:35:59Z,weather,,pandera_schema_failed,flag,2,105264,"[{'column': 'relative_humidity_2m', 'failure_case': 'int64', 'index': None, 'schema_context': 'Column', 'check': ""dtype('float64')"", 'check_number': None}, {'column': 'wind_direction_10m', 'failure_case': 'int64', 'index': None, 'schema_context': 'Column', 'check': ""dtype('float64')"", 'check_number'"
+a204c2af,2026-10-20T05:39:31Z,pm25,,drop_duplicate_station_hour (keep latest fetch),fix,36,60125,
+a204c2af,2026-10-20T05:39:31Z,pm25,3292849,gap_le_3h_linear_interpolation,fill,118,16541,is_filled=True
+a204c2af,2026-10-20T05:39:31Z,pm25,3292849,gap_gt_3h_left_missing,flag,1013,16541,not guessed
+a204c2af,2026-10-20T05:39:31Z,pm25,4515157,gap_le_3h_linear_interpolation,fill,97,12189,is_filled=True
+a204c2af,2026-10-20T05:39:31Z,pm25,4515157,gap_gt_3h_left_missing,flag,1534,12189,not guessed
+a204c2af,2026-10-20T05:39:31Z,pm25,4515157,station_stale_over_6h,flag,1,1,latest hour 2026-10-14 12:00:00+00:00 is 138h old
+a204c2af,2026-10-20T05:39:32Z,pm25,4515644,gap_le_3h_linear_interpolation,fill,50,12325,is_filled=True
+a204c2af,2026-10-20T05:39:32Z,pm25,4515644,gap_gt_3h_left_missing,flag,6799,12325,not guessed
+a204c2af,2026-10-20T05:39:32Z,pm25,4527035,gap_le_3h_linear_interpolation,fill,57,12287,is_filled=True
+a204c2af,2026-10-20T05:39:32Z,pm25,4527035,gap_gt_3h_left_missing,flag,3894,12287,not guessed
+a204c2af,2026-10-20T05:39:32Z,pm25,4527173,gap_le_3h_linear_interpolation,fill,84,12285,is_filled=True
+a204c2af,2026-10-20T05:39:32Z,pm25,4527173,gap_gt_3h_left_missing,flag,631,12285,not guessed
+a204c2af,2026-10-20T05:39:32Z,pm25,4566426,gap_le_3h_linear_interpolation,fill,54,12190,is_filled=True
+a204c2af,2026-10-20T05:39:32Z,pm25,4566426,gap_gt_3h_left_missing,flag,3397,12190,not guessed
+a204c2af,2026-10-20T05:39:33Z,pm25,,pandera_schema,pass,77817,77817,
+a204c2af,2026-10-20T05:39:34Z,weather,,"cast_integer_columns_to_float: relative_humidity_2m,wind_direction_10m",fix,105264,105264,
+a204c2af,2026-10-20T05:39:34Z,weather,,pandera_schema,pass,105264,105264,

@@ -1,4 +1,7 @@
 .venv/
 .env
-data/
 __pycache__/
+data/raw/
+data/cleaned/
+data/gold/
+data/*.duckdb
